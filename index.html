@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+  <div class="weekly-schedule">
+
+    <div class="tab-links">
+
+      <button class="tab-link" onclick="openDay(event, 'Monday')">Monday</button>
+      <button class="tab-link" onclick="openDay(event, 'Tuesday')">Tuesday</button>
+      <button class="tab-link" onclick="openDay(event, 'Wednesday')">Wednesday</button>
+      <button class="tab-link" onclick="openDay(event, 'Thursday')">Thursday</button>
+      <button class="tab-link" onclick="openDay(event, 'Friday')">Friday</button>
+      <button class="tab-link" onclick="openDay(event, 'Saturday')">Saturday</button>
+      <button class="tab-link" onclick="openDay(event, 'Sunday')">Sunday</button>
+
+    </div><!-- .tab-links -->
+
+    <div class="tab-panels">
+
+      <div id="Monday" class="tab-panel">
+        <h3>Monday</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div id="Tuesday" class="tab-panel">
+        <h3>Tueday</h3>
+        <p>Bibendum at varius vel pharetra vel turpis nunc eget.</p>
+      </div>
+
+      <div id="Wednesday" class="tab-panel">
+        <h3>Wednesday</h3>
+        <p>Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet.</p>
+      </div>
+
+      <div id="Thursday" class="tab-panel">
+        <h3>Thursday</h3>
+        <p>Non curabitur gravida arcu ac.</p>
+      </div>
+
+      <div id="Friday" class="tab-panel">
+        <h3>Friday</h3>
+        <p>Non enim praesent elementum facilisis leo vel fringilla est.</p>
+      </div>
+
+      <div id="Saturday" class="tab-panel">
+        <h3>Saturday</h3>
+        <p>Egestas maecenas pharetra convallis posuere morbi leo urna molestie.</p>
+      </div>
+
+      <div id="Sunday" class="tab-panel">
+        <h3>Sunday</h3>
+        <p>Eget est lorem ipsum dolor sit amet.</p>
+      </div>
+
+    </div><!-- .tab-panels -->
+
+  </div><!-- .weekly-schedule -->
+
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./weekly-schedule.js"></script>
+  </body>
+</html>
+
+
